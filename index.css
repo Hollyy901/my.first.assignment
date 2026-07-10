@@ -123,6 +123,7 @@
         font-family: sans-serif;
         font-weight: bold;
     }
+    /* meet the spreakers section style end */
 
     /* Pricing section style */
 
@@ -208,6 +209,52 @@
         color: black;
         cursor: pointer;
     }
+    /* pricing section style end */
+
+    /* footer section start */
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+        margin-top: 60px;
+        padding: 10px;
+        background-color: rgb(18, 18, 102);
+
+    }
+
+    .footer-logo img {
+    height: 45px;
+    display: block;
+    }
+
+    .social-media img {
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.divider{
+    
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    margin: 2px;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
 
 
 
