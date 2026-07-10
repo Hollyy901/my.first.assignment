@@ -4,13 +4,8 @@
     
 }
 
-.logo{
-    color:rgb(133, 167, 197);
-    font-size: 20px;
-    font-weight: 600px;
-    margin: 10px;
-    padding: 20px;
-}
+
+
 
 .nav-links{
     display: flex;
@@ -77,6 +72,57 @@
     color: white;
     align-items: center;
 }
+/* hero section style end */
+
+/* meet the speakers section style */
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    }
+
+    .speaker-1{
+        color: rgb(30, 30, 230);
+        font-size: small;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .speaker-role{
+        color: gray;
+        font-family: sans-serif;
+    }
+
+    .img-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+        background-color: white;
+        margin: 15px;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid rgb(221, 214, 214);
+    }
+
+    .img-box img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    .heading{
+        text-align: center;
+        
+        font-family: sans-serif;
+        font-weight: bold;
+    }
 
     
 
